@@ -205,3 +205,53 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# Python virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda environments
+*.conda
+*.env
+# *.yml   # ⚠️ if you export env with `conda env export > environment.yml` keep this! 
+# (usually you want to commit environment.yml so others can reproduce your env)
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Build / distribution artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# VSCode / IDE settings (optional, keep if team shares config)
+.vscode/
+.idea/
+
